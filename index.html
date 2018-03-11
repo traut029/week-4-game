@@ -14,49 +14,58 @@
 </head>
 
 <body>
-
-    <h1>Star Wars RPG!</h1>
-    <div class="character" id="luke">
-        <p>Luke Skywalker</p>
-        <img class="img-fluid profileImages" src="assets/images/Luke_Skywalker.jpg">
-        <p id="lukeHP"></p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 offset-md-6">
+                    <h1>Star Wars RPG!</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 offset-md-1 content">
+                
+                <div class="character" id="luke">
+                    <p>Luke Skywalker</p>
+                    <img class="img-fluid profileImages" src="assets/images/Luke_Skywalker.jpg">
+                    <p id="lukeHP"></p>
+                </div>
+                <div class="character" id="obi">
+                    <p>Obi-Wan Kenobi</p>
+                    <img class="img-fluid profileImages" src="assets/images/Ben_Kenobi.png">
+                    <p id="obiHP"></p>
+                </div>
+                <div class="character" id="sidious">
+                    <p>Darth Sidious</p>
+                    <img class="img-fluid profileImages" src="assets/images/Darth_Sidious.jpg">
+                    <p id="sidiousHP"></p>
+                </div>
+                <div class="character" id="maul">
+                    <p>Darth Maul</p>
+                    <img class="img-fluid profileImages" src="assets/images/Darth_Maul.png">
+                    <p id="maulHP"></p>
+                </div>
+                <div id="playerDiv">
+                    <h2>Your Character</h2>
+                </div>
+                <div id="enemyDiv">
+                    <h2>Enemies Available To Attack</h2>
+                </div>
+                <div id="fightSection">
+                    <h2>Fight Section</h2>
+                    <button id="attackButton">Attack</button>
+                </div>
+                <div id="defender">
+                    <h2>Defender</h2>
+                </div>
+                <div id="attackText">
+                </div>
+                <div id="counterAttackText">
+                </div>
+                <div id="gameOverDiv">
+                    <button id="restartButton">Restart</button>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="character" id="obi">
-        <p>Obi-Wan Kenobi</p>
-        <img class="img-fluid profileImages" src="assets/images/Ben_Kenobi.png">
-        <p id="obiHP"></p>
-    </div>
-    <div class="character" id="sidious">
-        <p>Darth Sidious</p>
-        <img class="img-fluid profileImages" src="assets/images/Darth_Sidious.jpg">
-        <p id="sidiousHP"></p>
-    </div>
-    <div class="character" id="maul">
-        <p>Darth Maul</p>
-        <img class="img-fluid profileImages" src="assets/images/Darth_Maul.png">
-        <p id="maulHP"></p>
-    </div>
-    <div id="playerDiv">
-        <h2>Your Character</h2>
-    </div>
-    <div id="enemyDiv">
-        <h2>Enemies Available To Attack</h2>
-    </div>
-    <div id="fightSection">
-        <h2>Fight Section</h2>
-        <button id="attackButton">Attack</button>
-    </div>
-    <div id="defender">
-        <h2>Defender</h2>
-    </div>
-    <div id="attackText">
-    </div>
-    <div id="counterAttackText">
-    </div>
-    <div id="gameOverDiv">
-        <button id="restartButton">Restart</button>
-    </div>
-
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
