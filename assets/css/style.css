@@ -1,0 +1,18 @@
+.profileImages {
+    width:200px;
+    height:200px;
+}
+
+.enemy {
+    border:1px solid red;
+
+}
+
+.player {
+    border:1px solid green;
+}
+
+.character {
+    display:inline-block;
+    
+}
