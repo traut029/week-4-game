@@ -268,7 +268,7 @@ function buttonErrors(){
 //If all enemies are defeated display the you win text and disable attack button
 function winner(){
     $("#attackButton").click(function(){
-        if(enemiesDefeated==3){
+        if(enemiesDefeated==3 && healthArray[playerChosen]>0){
             $("#attackText").text("You won!!! GAME OVER!!!");
             $("#counterAttackText").text("");
             $("#restartButton").show();
